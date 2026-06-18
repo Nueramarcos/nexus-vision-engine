@@ -5,6 +5,8 @@ build-backend = 'setuptools.build_meta'
 [project]
 name = 'nexus-vision-engine'
 version = '0.1.0'
+description = 'A pipeline-based system for processing and enriching data.'
+requires-python = '>=3.10'
 
 [tool.setuptools.packages.find]
 where = ['.']
