@@ -7,6 +7,10 @@
    - Navigate to the project directory.
    - Run the demo script by executing `python nexus/pipeline.py`.
    - This will start the pipeline and demonstrate its functionality.
+3. **Installing Dependencies**:
+   - Install dependencies by running `pip install -e .`.
+4. **Running Tests**:
+   - Run tests using `pytest -q`.
 
 ## Contribution Notes
 
