@@ -22,6 +22,10 @@ pytest -q
 ### Prerequisites
 - Python 3.10+
 
+### Standalone face pipeline
+
+See [scripts/](scripts/) for `ultra_fast_face_system.py` — ONNX UltraFace + ArcFace detection/clustering CLI used on the Nueramarcos workstation.
+
 ### Running the Demo
 To run the Nexus vision pipeline demo, execute the following command in your terminal:
 
