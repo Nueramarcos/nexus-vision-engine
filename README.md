@@ -3,7 +3,19 @@ Clustered facial recognition & media organization pipeline: optimized for scale,
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![CI Status](https://img.shields.io/badge/CI-Pending-blue.svg)](https://github.com/Nueramarcos/nexus-vision-engine/actions)
+[![CI](https://github.com/Nueramarcos/nexus-vision-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/Nueramarcos/nexus-vision-engine/actions/workflows/ci.yml)
+
+## Install
+
+```bash
+pip install -e .
+```
+
+## Test
+
+```bash
+pytest -q
+```
 
 ## Usage
 
