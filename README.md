@@ -1,31 +1,33 @@
 # nexus-vision-engine
 Clustered facial recognition & media organization pipeline: optimized for scale, handles edge cases (HEIF/raw), zero memory leaks at 10k+ image scale
-
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![CI](https://github.com/Nueramarcos/nexus-vision-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/Nueramarcos/nexus-vision-engine/actions/workflows/ci.yml)
 
 ## Install
-
 ```bash
 pip install -e .
 ```
 
 ## Test
-
 ```bash
 pytest -q
 ```
 
 ## Usage
-
 ### Prerequisites
 - Python 3.10+
 
 ### Standalone face pipeline
-
 See [scripts/](scripts/) for `ultra_fast_face_system.py` — ONNX UltraFace + ArcFace detection/clustering CLI used on the Nueramarcos workstation.
 
 ### Running the Demo
 To run the Nexus vision pipeline demo, execute the following command in your terminal:
 
+```
+Rules:
+- Output the complete updated README.md in "readme"
+- Touch README.md only; preserve existing sections
+- Keep under 120 lines
+- No HTML entities like &amp;
+```
